@@ -1,6 +1,10 @@
 # blockquote
 
-A new Flutter package.
+[![Pub](https://img.shields.io/pub/v/blockquote.svg?style=flat-square)](https://pub.dartlang.org/packages/blockquote)
+
+`blockquote` package helps you to create a Blockquote Widget.
+
+<!-- <img src='https://raw.githubusercontent.com/bharathraj-e/responsive_ui/master/pics/out.gif' width='80%' > -->
 
 ## Getting Started
 

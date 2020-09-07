@@ -1,8 +1,8 @@
 name: blockquote
-description: A new Flutter package.
+description: Create HTML <blockquote/> widget in flutter
 version: 0.0.1
-author:
-homepage:
+author: Bharathraj Elangovan<ebraj1996@gmail.com>
+homepage: https://github.com/bharathraj-e/blockquote.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
