@@ -2,17 +2,43 @@
 
 [![Pub](https://img.shields.io/pub/v/blockquote.svg?style=flat-square)](https://pub.dartlang.org/packages/blockquote)
 
-`blockquote` package helps you to create a Blockquote Widget.
-
-<!-- <img src='https://raw.githubusercontent.com/bharathraj-e/responsive_ui/master/pics/out.gif' width='80%' > -->
+`blockquote` package helps you to create a `<blockquote></blockquote>` Widget.
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+<img src='https://raw.githubusercontent.com/bharathraj-e/blockquote/master/img/single.png' width='60%' >
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+``` dart
+BlockQuote(
+        child: Column(
+          children: [
+            Text(
+              'Lorem ipsum dolor sit amet, is the best place to hide a text.',
+              textAlign: TextAlign.justify,
+            ),
+            Text(
+              '~ Change my mind!',
+              textAlign: TextAlign.end,
+            )
+          ],
+        ),
+      ),
+```
+
+### Add to pubspec 
+> blockquote: any
+### import in project
+> import 'package:blockquote/blockquote.dart';
+
+| Arguments      | inputs             | if null / default to                           |
+|----------------|--------------------|------------------------------------------------|
+| `blockColor`   | Color              | [Theme]'s `accentColor`                        |
+| `blockWidth`   | double             | `4`                                            |
+| `childPadding` | EdgeInsetsGeometry | `EdgeInsets.only(left: 15, top: 5, bottom: 5)` |
+| `child`        | Widget             | required / `SizedBox.Shrink()`                 |
+| `outerPadding` | EdgeInsetsGeometry | `EdgeInsets.symmetric(horizontal: 15)`         |
+
+<br>
+<img src='https://raw.githubusercontent.com/bharathraj-e/blockquote/master/img/multiple.png' width='40%' >
+
+>### More Quotes coming soon ! 
